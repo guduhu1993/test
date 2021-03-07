@@ -35,4 +35,4 @@ class TestPy():
         assert 1!=1
 
 if __name__ == '__main__':
-    pytest.main(['-s','-v','-m','smoke', '--alluredir', './report', '-o', './report', '--clean']) # -s:显示结果 -v:显示详情 -m:只执行smoke用例
+    pytest.main(['-s','-v','-m','smoke', '--alluredir', './report']) # -s:显示结果 -v:显示详情 -m:只执行smoke用例
